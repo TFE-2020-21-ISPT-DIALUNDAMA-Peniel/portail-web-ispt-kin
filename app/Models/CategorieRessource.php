@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class CategorieRessource extends Model
 {
     use HasFactory;
+    protected $table = 'categorie_ressources';
 }

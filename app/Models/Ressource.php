@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Ressource extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'libele',
+        'url',
+        'status',
+        'description',
+    ];   
 }
