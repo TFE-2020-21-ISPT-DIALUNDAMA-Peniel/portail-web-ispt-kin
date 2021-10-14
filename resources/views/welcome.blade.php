@@ -97,7 +97,7 @@
                 <p class="card-text"> {{$ressource->description}}</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a type="button" href="{{$ressource->url}}" class="btn btn-sm btn-outline-secondary">Consulter</a>
+                    <a type="button" href="{{$ressource->url}}" class="btn btn-sm btn-outline-secondary" target="_blank">Consulter</a>
                     </div>
                 </div>
                 </div>
